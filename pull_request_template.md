@@ -11,6 +11,6 @@
 ### Server details
 
 **Name:** 
-**AgenticMarket listing:** https://agenticmarket.dev/skills/
+**AgenticMarket listing:** https://agenticmarket.dev/username/skills
 **Category:** 
 **One-line description:** 

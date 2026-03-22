@@ -21,7 +21,7 @@ Before submitting, make sure your server:
 3. **Add a row** to the table in this format:
 
 ```markdown
-| [server-name](https://agenticmarket.dev/skills/username/server-name) | One-line description of what it does | `agenticmarket install username/server-name` |
+| [server-name](https://agenticmarket.dev/username/server-name) | One-line description of what it does | `agenticmarket install username/server-name` |
 ```
 
 **Description rules:**
