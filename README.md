@@ -74,7 +74,7 @@ agenticmarket install agenticmarket/web-reader
 # 4. Open VS Code, Cursor, or Claude Desktop — the tool is ready
 ```
 
-Get your API key at [agenticmarket.dev](https://agenticmarket.dev/api-keys)
+Get your API key at [agenticmarket.dev](https://agenticmarket.dev/dashboard/api-keys)
 
 ---
 
