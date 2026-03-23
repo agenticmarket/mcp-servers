@@ -1,6 +1,7 @@
 # ✦ AgenticMarket — MCP Server Registry
 
-> The official list of MCP servers available on [AgenticMarket](https://agenticmarket.dev) — install any of them in one command.
+MCP servers are spread across repositories and often require manual setup.
+AgenticMarket helps you discover, install, and publish MCP servers in one command for Cursor, VS Code, and Claude Desktop.
 
 ```bash
 npm install -g agenticmarket
@@ -9,17 +10,28 @@ agenticmarket install username/server-name
 
 ---
 
-## What is AgenticMarket?
+Supports:
+- Cursor MCP servers
+- Claude Desktop MCP integrations
+- VS Code MCP tools
 
-[AgenticMarket](https://agenticmarket.dev) is the CLI-first MCP platform. Developers install MCP servers into VS Code, Cursor, or Claude Desktop in one command. Creators publish their servers and earn 80% on every call.
+
+## What is AgenticMarket MCP Server Registry?
+
+AgenticMarket is a registry for discovering, installing, and publishing MCP servers for MCP-compatible clients such as Cursor, VS Code, and Claude Desktop.
 
 - **For users** — install any MCP server instantly, pay per call
 - **For creators** — publish once, earn on every call, no infrastructure needed
 
 
+## What you can do with AgenticMarket
+- Install MCP servers instantly using CLI
+- Discover ready-to-use MCP tools
+- Connect AI apps (Cursor, Claude, VS Code) to external systems
+- Publish and monetize your own MCP server
+
 ## What is the Model Context Protocol (MCP)?
-MCP (Model Context Protocol) is an open-source standard for connecting AI applications to external systems.
-Using MCP, AI applications like Claude or ChatGPT can connect to data sources (e.g. local files, databases), tools (e.g. search engines, calculators) and workflows (e.g. specialized prompts)—enabling them to access key information and perform tasks.
+Model Context Protocol (MCP) is an open-source standard for connecting AI applications to external systems. Using MCP, AI applications like Claude or ChatGPT can connect to data sources (e.g. local files, databases), tools (e.g. search engines, calculators) and workflows (e.g. specialized prompts)—enabling them to access key information and perform tasks.
 
 Think of MCP like a USB-C port for AI applications. Just as USB-C provides a standardized way to connect electronic devices, MCP provides a standardized way to connect AI applications to external systems.
 
@@ -59,7 +71,7 @@ Think of MCP like a USB-C port for AI applications. Just as USB-C provides a sta
 
 ---
 
-## Install in One Command
+## Install MCP Servers in One Command
 
 ```bash
 # 1. Install the CLI
@@ -80,7 +92,7 @@ Get your API key at [agenticmarket.dev](https://agenticmarket.dev/dashboard/api-
 
 ## Publish Your MCP Server
 
-Already built an MCP server? List it on AgenticMarket and earn 80% on every call.
+Already built an MCP server? List it on AgenticMarket - it's free.
 
 **What you need:**
 - A publicly accessible HTTPS endpoint (HTTP-based MCP)
