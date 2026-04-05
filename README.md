@@ -80,6 +80,12 @@ Think of MCP like a USB-C port for AI applications. Just as USB-C provides a sta
 | ---------------------------------------------------------------------- | ----------------------------------------------- | ---------------------------------------------------- |
 | [exchange-rate](https://agenticmarket.dev/agenticmarket/exchange-rate) | A simple MCP server for currency exchange data. | `agenticmarket install @agenticmarket/exchange-rate` |
 
+### 🔬 Research
+
+| Server | Description | Install |
+| ------ | ----------- | ------- |
+| [bgpt-mcp](https://agenticmarket.dev/connerlambden/bgpt-mcp) | Search scientific papers with structured experimental data from full-text studies | `agenticmarket install connerlambden/bgpt-mcp` |
+
 ---
 
 ## Install MCP Servers in One Command
