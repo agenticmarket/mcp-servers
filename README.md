@@ -140,6 +140,12 @@ Anyone with an AgenticMarket account can list any publicly accessible MCP server
 agenticmarket install server-slug
 ```
 
+### 🔬 Research
+
+| Server | Description | Install |
+| ------ | ----------- | ------- |
+| [bgpt-mcp](https://agenticmarket.dev/connerlambden/bgpt-mcp) | Search scientific papers with structured experimental data from full-text studies | `agenticmarket install connerlambden/bgpt-mcp` |
+
 ---
 
 ## Install MCP Servers in One Command
