@@ -1,7 +1,7 @@
 ---
 name: Server Request
 about: Request an MCP server you want to see on AgenticMarket
-title: 'Request: '
+title: "Request: "
 labels: server-request
 ---
 
@@ -17,11 +17,11 @@ labels: server-request
 
 <!-- What's your use case? What would you use it for? -->
 
-## Would you pay per-call for this?
+## How would you want it listed?
 
-- [ ] Yes
-- [ ] No
-- [ ] Depends on the price
+- [ ] `/servers` — pay per call, installed via `agenticmarket install username/server-name`
+- [ ] `/explore` — community listing, installed via `agenticmarket install server-slug`
+- [ ] Either works
 
 ## Anything else?
 
