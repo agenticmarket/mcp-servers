@@ -70,6 +70,8 @@ Add your server to the most relevant section. If your server fits multiple categ
 | Developer Tools    | Code tools, formatters, validators, converters  |
 | Data Processing    | ETL, data pipelines, analytics                  |
 | Search             | Search engines, data fetching                   |
+| SEO                | SEO audits, indexing, crawling, and optimization |
+| Database           | Databases, SQL, storage engines, and data access |
 | Productivity       | Tasks, calendars, notes, project management     |
 | Research           | Research tools, academic, discovery             |
 | File System        | File and Folder discovery                       |
@@ -79,6 +81,9 @@ Add your server to the most relevant section. If your server fits multiple categ
 | Finance            | Market data, crypto, analytics platforms        |
 | Education          | Learning, teaching, study tools                 |
 | Utilities          | Miscellaneous tools, helpers                    |
+| Cloud              | Cloud services, hosting, serverless, and infra APIs |
+| Communication      | Messaging, email, notifications, and collaboration |
+| Monitoring         | Observability, logs, metrics, and alerting      |
 | Other              | Anything that doesn't fit above                 |
 
 If your category doesn't exist yet, add a new section — follow the same `### 🔤 Category Name` format.

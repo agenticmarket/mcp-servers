@@ -58,40 +58,54 @@ Think of MCP like a USB-C port for AI applications. Just as USB-C provides a sta
 
 ### 🔎 Search
 
-| Server | Description | Install |
-| --- | --- | --- |
-| [web-reader](https://agenticmarket.dev/servers/agenticmarket/web-reader) | Extract readable content from webpages, removing ads and clutter | `agenticmarket install agenticmarket/web-reader` |
-| [rss-reader](https://agenticmarket.dev/servers/agenticmarket/rss-reader) | Fetch and parse RSS/Atom feeds to retrieve latest articles and updates | `agenticmarket install agenticmarket/rss-reader` |
-| [sitemap-reader](https://agenticmarket.dev/servers/agenticmarket/sitemap-reader) | Fetch and parse XML sitemaps for site discovery and crawling | `agenticmarket install agenticmarket/sitemap-reader` |
-| [site-metadata](https://agenticmarket.dev/servers/agenticmarket/site-metadata) | Extract metadata, OG tags, and structured info from any URL | `agenticmarket install agenticmarket/site-metadata` |
-| [wikipedia](https://agenticmarket.dev/servers/agenticmarket/wikipedia) | Extract articles and retrieve full content, making it easy for AI agents to access reliable, structured knowledge | `agenticmarket install agenticmarket/wikipedia` |
-| [hackernews](https://agenticmarket.dev/servers/agenticmarket/hackernews) | Fetch top stories, individual posts with comments, and the latest Ask HN / Show HN discussions — all in a clean, structured format | `agenticmarket install agenticmarket/hackernews` |
-| [duckduckgo](https://agenticmarket.dev/servers/agenticmarket/duckduckgo) | Structured search results (title, URL, snippet) via a simple MCP-compatible API, optimized for LLM workflows | `agenticmarket install agenticmarket/duckduckgo` |
+| Server                                                                         | Description                                                                                                                        | Install                                             |
+| ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
+| [web-reader](https://agenticmarket.dev/servers/agenticmarket/web-reader)       | Extract readable content from webpages, removing ads and clutter                                                                   | `agenticmarket install agenticmarket/web-reader`    |
+| [rss-reader](https://agenticmarket.dev/servers/agenticmarket/rss-reader)       | Fetch and parse RSS/Atom feeds to retrieve latest articles and updates                                                             | `agenticmarket install agenticmarket/rss-reader`    |
+| [site-metadata](https://agenticmarket.dev/servers/agenticmarket/site-metadata) | Extract metadata, OG tags, and structured info from any URL                                                                        | `agenticmarket install agenticmarket/site-metadata` |
+| [wikipedia](https://agenticmarket.dev/servers/agenticmarket/wikipedia)         | Extract articles and retrieve full content, making it easy for AI agents to access reliable, structured knowledge                  | `agenticmarket install agenticmarket/wikipedia`     |
+| [hackernews](https://agenticmarket.dev/servers/agenticmarket/hackernews)       | Fetch top stories, individual posts with comments, and the latest Ask HN / Show HN discussions — all in a clean, structured format | `agenticmarket install agenticmarket/hackernews`    |
+| [duckduckgo](https://agenticmarket.dev/servers/agenticmarket/duckduckgo)       | Structured search results (title, URL, snippet) via a simple MCP-compatible API, optimized for LLM workflows                       | `agenticmarket install agenticmarket/duckduckgo`    |
+
+### 📈 SEO
+
+| Server                                                                                       | Description                                                                                                    | Install                                                    |
+| -------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
+| [sitemap-reader](https://agenticmarket.dev/servers/agenticmarket/sitemap-reader)             | Fetch and parse XML sitemaps for site discovery and crawling                                                   | `agenticmarket install agenticmarket/sitemap-reader`       |
+| [robots-sitemap-audit](https://agenticmarket.dev/servers/agenticmarket/robots-sitemap-audit) | Analyze robots.txt and sitemap configuration to ensure proper crawling, indexing, and search engine visibility | `agenticmarket install agenticmarket/robots-sitemap-audit` |
+| [seo-audit](https://agenticmarket.dev/servers/agenticmarket/seo-audit)                       | Analyze any webpage's on-page SEO and return a detailed score with actionable recommendations                  | `agenticmarket install agenticmarket/seo-audit`            |
 
 ### 🛠 Developer Tools
 
-| Server | Description | Install |
-| --- | --- | --- |
-| [json-tools](https://agenticmarket.dev/servers/agenticmarket/json-tools) | Validate, format, query, and transform JSON data | `agenticmarket install agenticmarket/json-tools` |
-| [markdown-fetch](https://agenticmarket.dev/servers/agenticmarket/markdown-fetch) | Fetch remote markdown content from URLs and repositories | `agenticmarket install agenticmarket/markdown-fetch` |
-| [url-status](https://agenticmarket.dev/servers/agenticmarket/url-status) | Check URL reachability and HTTP status for any endpoint | `agenticmarket install agenticmarket/url-status` |
+| Server                                                                           | Description                                                                                                                     | Install                                              |
+| -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
+| [json-tools](https://agenticmarket.dev/servers/agenticmarket/json-tools)         | Validate, format, query, and transform JSON data                                                                                | `agenticmarket install agenticmarket/json-tools`     |
+| [markdown-fetch](https://agenticmarket.dev/servers/agenticmarket/markdown-fetch) | Fetch remote markdown content from URLs and repositories                                                                        | `agenticmarket install agenticmarket/markdown-fetch` |
+| [dev-toolkit](https://agenticmarket.dev/servers/agenticmarket/dev-toolkit)       | Essential developer utilities for generating UUIDs, hashing text, decoding JWTs, comparing versions, and testing regex patterns | `agenticmarket install agenticmarket/dev-toolkit`    |
+| [url-status](https://agenticmarket.dev/servers/agenticmarket/url-status)         | Check URL reachability and HTTP status for any endpoint                                                                         | `agenticmarket install agenticmarket/url-status`     |
+
+### 🗄️ Database
+
+| Server                                                               | Description                                                                                       | Install                                     |
+| -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------- |
+| [crypto-info](https://agenticmarket.dev/servers/fiowind/crypto-info) | Real-time prices, 24h volume, and price changes for top cryptocurrencies, plus latest market news | `agenticmarket install fiowind/crypto-info` |
 
 ### 📊 Data Processing
 
-| Server | Description | Install |
-| --- | --- | --- |
+| Server                                                                       | Description                                                             | Install                                            |
+| ---------------------------------------------------------------------------- | ----------------------------------------------------------------------- | -------------------------------------------------- |
 | [text-cleaner](https://agenticmarket.dev/servers/agenticmarket/text-cleaner) | Clean and normalize text by removing HTML tags, scripts, and whitespace | `agenticmarket install agenticmarket/text-cleaner` |
 
 ### 🔧 Utilities
 
-| Server | Description | Install |
-| --- | --- | --- |
+| Server                                                         | Description                                                                       | Install                                     |
+| -------------------------------------------------------------- | --------------------------------------------------------------------------------- | ------------------------------------------- |
 | [utils](https://agenticmarket.dev/servers/agenticmarket/utils) | Lightweight utilities — greeting, jokes, fun facts, UUID, random color generation | `agenticmarket install agenticmarket/utils` |
 
 ### 💰 Finance
 
-| Server | Description | Install |
-| --- | --- | --- |
+| Server                                                                         | Description                                    | Install                                             |
+| ------------------------------------------------------------------------------ | ---------------------------------------------- | --------------------------------------------------- |
 | [exchange-rate](https://agenticmarket.dev/servers/agenticmarket/exchange-rate) | A simple MCP server for currency exchange data | `agenticmarket install agenticmarket/exchange-rate` |
 
 ---
@@ -104,36 +118,35 @@ Anyone with an AgenticMarket account can list any publicly accessible MCP server
 
 ### 🔎 Search
 
-| Server | Description | Install |
-| --- | --- | --- |
+| Server                                                                 | Description                                                                                                         | Install                                  |
+| ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | ---------------------------------------- |
 | [Fetch MCP Server](https://agenticmarket.dev/explore/fetch-mcp-server) | Give your AI assistant the ability to read any web page. The official Fetch server converts HTML to markdown by MCP | `agenticmarket install fetch-mcp-server` |
 
 ### 📁 File System
 
-| Server | Description | Install |
-| --- | --- | --- |
+| Server                                                                           | Description                                                                                                                                               | Install                                       |
+| -------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------- |
 | [Filesystem MCP Server](https://agenticmarket.dev/explore/filesystem-mcp-server) | Give your AI assistant read and write access to local files and directories. The most-used MCP server — lets AI tools work with your filesystem directly. | `agenticmarket install filesystem-mcp-server` |
 
-### ⏱️ Productivity
+### 🔧 Utilities
 
-| Server | Description | Install |
-| --- | --- | --- |
+| Server                                                               | Description                                                                                                                                                           | Install                                 |
+| -------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------- |
 | [Time MCP Server](https://agenticmarket.dev/explore/time-mcp-server) | Give your AI assistant awareness of the current time and timezone conversions. Query the current time in any timezone and convert between timezones using IANA names. | `agenticmarket install time-mcp-server` |
 
 ### 🛠 Developer Tools
 
-| Server | Description | Install |
-| --- | --- | --- |
-| [Everything MCP Server](https://agenticmarket.dev/explore/everything-mcp-server) |The official MCP reference server that exercises every protocol feature — prompts, tools, resources, sampling, and all transports. Built for MCP client developers and testing. | `agenticmarket install everything-mcp-server` |
-| [Git MCP Server](https://agenticmarket.dev/explore/git-mcp-server) |Let your AI assistant interact with Git repositories directly. Status, diff, commit, branch, and log — all accessible to your LLM through 12 Git tools. | `agenticmarket install git-mcp-server` |
+| Server                                                                           | Description                                                                                                                                                                     | Install                                       |
+| -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------- |
+| [Everything MCP Server](https://agenticmarket.dev/explore/everything-mcp-server) | The official MCP reference server that exercises every protocol feature — prompts, tools, resources, sampling, and all transports. Built for MCP client developers and testing. | `agenticmarket install everything-mcp-server` |
+| [Git MCP Server](https://agenticmarket.dev/explore/git-mcp-server)               | Let your AI assistant interact with Git repositories directly. Status, diff, commit, branch, and log — all accessible to your LLM through 12 Git tools.                         | `agenticmarket install git-mcp-server`        |
 
 ### ✨ AI-ML
 
-| Server | Description | Install |
-| --- | --- | --- |
-| [Sequential Thinking](https://agenticmarket.dev/explore/sequential-thinking-mcp-server) |Enhance your AI assistant's reasoning with structured, step-by-step thinking. Supports revisions, branching, and dynamic adjustment of reasoning depth. | `agenticmarket install sequential-thinking-mcp-server` |
-| [Memory](https://agenticmarket.dev/explore/memory-mcp-server) |Give your AI assistant persistent memory across conversations. The Memory server stores entities, relations, and observations in a local knowledge graph that persists between sessions. | `agenticmarket install memory-mcp-server` |
-
+| Server                                                                                  | Description                                                                                                                                                                              | Install                                                |
+| --------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
+| [Sequential Thinking](https://agenticmarket.dev/explore/sequential-thinking-mcp-server) | Enhance your AI assistant's reasoning with structured, step-by-step thinking. Supports revisions, branching, and dynamic adjustment of reasoning depth.                                  | `agenticmarket install sequential-thinking-mcp-server` |
+| [Memory](https://agenticmarket.dev/explore/memory-mcp-server)                           | Give your AI assistant persistent memory across conversations. The Memory server stores entities, relations, and observations in a local knowledge graph that persists between sessions. | `agenticmarket install memory-mcp-server`              |
 
 ```bash
 # Install any community server by slug
